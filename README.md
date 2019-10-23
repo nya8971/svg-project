@@ -23,8 +23,7 @@ The following conditions apply:
 
 - Use an external style sheet to apply the colors for each flag. You may *only* use descendent, child, adjacent sibling, general sibling, pseudo-classes (i.e. `first-child`, `last-child`, etc.) or pseudo-elements as selectors.
 
-- Included in this repository are assets -- `star.svg` and `crescent.svg`. You may use these if a flag you selected requires a five-pointed star and/or crescent. You will need to use css positioning to overlay these on top of the svg you draw. You may need to use the `transform` property to adjust these as well.
-
+- Included in this repository are assets -- `star.svg` and `crescent.svg`. You may use these if a flag you selected requires a five-pointed star and/or crescent. You may embed the code which defines the star and crecent in your HTML. Add these using `defs` or `symbol`. Another option is to use CSS positioning to overlay the star or crescent on the flag.
 
 ## Grading
 
