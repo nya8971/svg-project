@@ -1,14 +1,13 @@
 h1{
-  font-size: 2.75rem;
+  font-size: 2.25rem;
 }
 
 h2{
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 h3{
-  font-size: 1rem;
-  font-style: italic;
+  font-size: 1.25rem;
 }
 #gabon-flag rect:first-child{
   fill:none;
@@ -54,12 +53,12 @@ h3{
 #panama-flag polygon{
   stroke:rgb(8,43,134);
   fill:rgb(8,43,134);
-  transform: translate(100px,100px);
+  transform: translate(120px,100px);
 }
 #panama-flag polygon:last-child{
   stroke:rgb(204,51,40);
   fill:rgb(204,51,40);
-  transform: translate(420px,230px);
+  transform: translate(420px,240px);
 }
 #trinadad-flag rect:first-child{
   fill:rgb(204,51,40);
