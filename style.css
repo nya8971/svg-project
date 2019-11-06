@@ -1,0 +1,97 @@
+h1{
+  font-size: 2.75rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1rem;
+  font-style: italic;
+}
+#gabon-flag rect:first-child{
+  fill:none;
+  stroke:black;
+}
+#gabon-flag rect:nth-child(2){
+  fill:rgb(67,145,88);
+}
+#gabon-flag rect:nth-child(3){
+  fill:rgb(253,238,81);
+}
+#gabon-flag rect:last-child{
+  fill:rgb(8,43,127);
+}
+#japan-flag rect{
+  fill:white;
+  stroke:black;
+}
+#japan-flag circle{
+  fill:rgb(204,43,32);
+}
+#monaco-flag rect:first-child{
+  fill:none;
+  stroke:black;
+}
+#monaco-flag rect:nth-child(2){
+  fill:rgb(204,47,40);
+}
+
+#monaco-flag rect:last-child{
+  fill:white;
+}
+#panama-flag rect:first-child{
+  fill:none;
+  stroke:black;
+}
+#panama-flag rect:nth-child(2){
+  fill:rgb(204,51,40);
+}
+#panama-flag rect:nth-child(3){
+  fill:rgb(8,43,134);
+}
+#panama-flag polygon{
+  stroke:rgb(8,43,134);
+  fill:rgb(8,43,134);
+  transform: translate(100px,100px);
+}
+#panama-flag polygon:last-child{
+  stroke:rgb(204,51,40);
+  fill:rgb(204,51,40);
+  transform: translate(420px,230px);
+}
+#trinadad-flag rect:first-child{
+  fill:rgb(204,51,40);
+  stroke:black;
+}
+#trinadad-flag polygon{
+  stroke:white;
+  stroke-width:100;
+}
+#trinadad-flag polygon+polygon{
+  stroke:black;
+  stroke-width:30;
+}
+#trinadad-flag rect:last-child{
+  fill:none;
+  stroke:black;
+}
+
+#st-vincent-flag rect:first-child{
+  fill:white;
+  stroke:black;
+}
+#st-vincent-flag rect{
+  fill:green;
+}
+#st-vincent-flag rect:nth-child(2){
+  fill:blue;
+}
+#st-vincent-flag rect:nth-child(3){
+  fill:yellow;
+}
+
+#st-vincent-flag polygon{
+  fill:green;
+}
